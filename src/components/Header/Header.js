@@ -6,8 +6,10 @@ const Header = (props) => {
 
 	return (
 		<div>
-			<h1>This is Header:{category} </h1>
-			<button onClick={() => setCategory(category + 1)}>Increment</button>
+			<h1>This is Header: {category} </h1>
+			<button onClick={() => setCategory('Laptop')}>Laptop</button>
+			<button onClick={() => setCategory('Mobile')}>Mobile</button>
+			<button onClick={() => setCategory('Camera')}>Camera</button>
 		</div>
 	);
 };
